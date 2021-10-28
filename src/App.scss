@@ -1,0 +1,8 @@
+.green {
+    background-color: chartreuse !important;
+    color: aliceblue !important;
+    font-weight: 500 !important;
+    &:hover {
+      background: blue !important;
+    }
+  }

@@ -1,0 +1,103 @@
+.meeting-info-block {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background: aliceblue;
+    border-radius: 10px;
+    padding: 25px;
+    width: 310px;
+    .meeting-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: rgb(80, 80, 80);
+        h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .icon {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            // font-size: 20px;
+            // padding: 10px;
+            border-radius: 50%;
+            color: rgb(117, 117, 117);;
+            &:hover {
+                color: azure;
+                background: rgb(223, 223, 223);
+            }
+        }
+    }
+    .add-people-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: cadetblue;
+        color: aliceblue;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        margin-top: 20px;
+        .icon {
+            font-size: 12px;
+            margin-right: 10px;
+
+        }
+        &:hover {
+            background: rgb(147, 191, 192);
+        }
+    }
+    .meet-link {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: aliceblue;
+        padding: 15px;
+        border-radius: 5px;
+        border: 2px solid rgb(179, 179, 179);
+        span {
+            font-size: 14px;
+            font-weight: 600;
+            border: none;
+            outline: none;
+            background: none;
+            flex: 1;
+            color: rgb(77, 77, 77);
+        }
+        .icon {
+            height: 100%;
+            font-size: 20sp;
+            // padding-left: 10px;
+            // padding-right: 10px;
+            position: absolute;
+            right: 0;
+            border-radius:  5px 0 0 5px;
+            cursor: pointer;
+            color: rgb(117, 117, 117);
+            &:hover {
+                background: rgb(223, 223, 223);
+            }
+            
+        }
+    }
+    .permission-text {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        .icon {
+            color: aqua;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+    }
+    .small-text {
+        font-size: 13px;
+        color: rgb(138, 138, 138);
+    }
+
+}
